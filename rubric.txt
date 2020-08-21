@@ -1,0 +1,24 @@
+Your Task
+Create a Django application with the following features.
+
+Back end:
+
+X One model to represent both boasts and roasts
+X Boolean to tell whether it's a boast or a roast
+X CharField to put the content of the post in
+X IntegerField for up votes
+X IntegerField for down votes
+ XDateTimeField for submission time
+Front end: 
+
+X Homepage that displays boasts and roasts, sorted by time submitted (hint --> https://docs.djangoproject.com/en/3.0/ref/models/querysets/#order-by (Links to an external site.)Links to an external site.)
+X Buttons to filter the content by either boasts or roasts, sorted by time submitted
+X Upvote and downvote buttons for each boast and roast
+when clicked, these buttons affect the numbers on the relevant post appropriately
+Ability to sort content based on vote score (hint: you may need to calculate the vote score) 
+Page to submit a boast or a roast
+Hints:
+
+button hrefs can use template data, just like everything else
+voting is not meant to be secure; this is effectively a proof of concept application
+you do not need to worry about figuring out if someone has already voted on something
